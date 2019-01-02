@@ -20,7 +20,17 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+pwd: show current working directory path
+mkdir: create a directory
+rm -d: delete a directory
+touch: create a file with default permissions
+rm: delete a file
+mv *old name* *new name*: rename file
+ls -a: list hidden files (ones that start with '.')
+cp *source* *target*: copy file
+man *command*: find out info about command
+curl *url*: download data from url
 
 ---
 
@@ -35,7 +45,14 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> >
+ls: list directory contents
+ls -a: list directory entries beginning with a dot
+ls -l: list directory contents with more detailed information
+ls -lh: list directory contents and use unit suffixes to reduce digits
+ls -lah: list directory contents including ones beginning with a dot, and use unit suffixes 
+ls -t: list directory contents, sorting by time modified (most recent first)
+ls -Glp: list directory contents with more detailed information, colorized output, and slashes after directories
 
 ---
 
@@ -43,15 +60,23 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+> >
+ls -1: display each entry on a line
+ls -r: display files in reverse order
+ls -d: displays only directories
+ls -m: displays entries as a comma separated list
+ls -x: displays entries in rows
 ---
 
 ### Q4.  Xargs   
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+xargs can be used in tandem with another command in order to pass a constructed list of arguments to that command with a pipe. 
+One example of how it can be used would be to create multiple folders in a directory by passing the names of them to mkdir with a pipe and xargs: 
+echo 'one two three' | xargs mkdir
 
+this will create 3 folders in the current directory, called one, two, and three.
  
 
