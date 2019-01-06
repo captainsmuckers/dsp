@@ -13,11 +13,11 @@ for x, p in pmf.Items():
 thinkplot.Pmfs([pmf, biased_pmf])  
 thinkplot.Config(xlabel='Number of children', ylabel='PMF')  
 
-pmf.Mean()  
+>> pmf.Mean()  
 
-biased_pmf.Mean()  
+>> biased_pmf.Mean()  
 
-The means are:  
+>> The means are:  
 actual = 1.024205155043831  
 biased = 2.461860525971477  
 
