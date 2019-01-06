@@ -5,19 +5,19 @@ pmf = thinkstats2.Pmf(resp.numkdhh, label='numkdhh')
 thinkplot.Pmf(pmf)  
 thinkplot.Config(xlabel='Number of Children', ylabel='PMF')  
 
-biased_pmf = pmf.Copy()  
+>> biased_pmf = pmf.Copy()  
 for x, p in pmf.Items():  
     biased_pmf.Mult(x, x)  
 
-thinkplot.PrePlot(2) . 
-thinkplot.Pmfs([pmf, biased_pmf]) . 
-thinkplot.Config(xlabel='Number of children', ylabel='PMF') . 
+>> thinkplot.PrePlot(2)  
+thinkplot.Pmfs([pmf, biased_pmf])  
+thinkplot.Config(xlabel='Number of children', ylabel='PMF')  
 
-pmf.Mean() . 
+pmf.Mean()  
 
-biased_pmf.Mean() . 
+biased_pmf.Mean()  
 
-The means are: 
-actual = 1.024205155043831
-biased = 2.461860525971477
+The means are:  
+actual = 1.024205155043831  
+biased = 2.461860525971477  
 
