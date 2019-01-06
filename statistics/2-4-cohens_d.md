@@ -2,7 +2,7 @@
 
 >> If we inspect the means, we'll find that first born babies are 0.125 pounds lighter on average than other babies.  The Cohen effect size for the total weight between these two groups is -0.089.  This is nearly 3 times larger than the Cohen effect size for pregnancy length, though it is still a rather small and insignifact difference.  The code used to find the value can be found below:
 
-import math  
+>> import math  
 live = preg[preg.outcome == 1]  
 firsts = live[live.birthord == 1]  
 others = live[live.birthord != 1]  
