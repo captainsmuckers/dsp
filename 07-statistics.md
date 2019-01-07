@@ -108,7 +108,7 @@ P(A|B<sup>1</sup>) = 1/125
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> The primary difference between Bayesian and Frequentist statistics is likely in how they define probability.  A frequentist likely believes that probability measures the physical likelihood of an event occurring, based on a great amount of trials where they measure the relative frequency of each event.  Whereas a Bayesian is more likely to think probability measures how strongly someone believes an event will happen, though such a belief will still be based on data from tests and trials.  In general, frequentists are only interested in the hard data itself and what the outcome is, while bayesians may have prior thoughts or beliefs about the outcome, and are interested in how plausible a certain outcome is.  Overall, either approach is perfectly acceptable, and practicitioners of each viewpoint will at least occasionally call upon ideas from the opposing philosophy.  
 
 ---
 
